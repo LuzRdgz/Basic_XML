@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Mensaje SYSTEM "ejercicio_2.dtd">
+<Mensaje>
+    <Remite>
+        <Nombre>Alfredo Reino</Nombre>
+        <Email>alf@ibium.com</Email>
+    </Remite>
+    <Destinatario>
+        <Nombre>Bill Clinton</Nombre>
+        <Email>president@whitehouse.gov</Email>
+    </Destinatario>
+    <Asunto>Hola Bill</Asunto>
+    <Texto>
+        <Inicio>¿Hola qué tal?</Inicio>
+        <Desarrollo>
+            Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.
+        </Desarrollo>
+        <Final>Un saludo</Final>
+    </Texto>
+</Mensaje>
