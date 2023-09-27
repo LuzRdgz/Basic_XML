@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Pedido SYSTEM "ejercicio_1.dtd">
+<Pedido>
+    <InfoPedido>
+        <Destinatario>Juan Delgado Martinez</Destinatario>
+        <Articulo>Bicicleta Bianchi Oltre</Articulo>
+        <DireccionEntrega>Calle Reforma, tercer piso, letra A</DireccionEntrega>
+        <FechaEntrega>19-09-2021</FechaEntrega>
+    </InfoPedido>
+</Pedido>

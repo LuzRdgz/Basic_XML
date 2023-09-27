@@ -1,0 +1,6 @@
+<!ELEMENT Pedido (InfoPedido)*>
+<!ELEMENT InfoPedido (Destinatario,Articulo,DireccionEntrega,FechaEntrega)*>
+<!ELEMENT Destinatario (#PCDATA)>
+<!ELEMENT Articulo (#PCDATA)>
+<!ELEMENT DireccionEntrega (#PCDATA)>
+<!ELEMENT FechaEntrega (#PCDATA)>
