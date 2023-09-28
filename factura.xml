@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+    <!-- Información del negocio -->
+    <business_info>
+        <company_name>Walmart</company_name>
+        <address>123 Main Street</address>
+        <city>New York</city>
+        <state>NY</state>
+        <postal_code>10001</postal_code>
+        <phone>123-456-7890</phone>
+        <email>info@company.com</email>
+    </business_info>
+    
+    <!-- Invoice number -->
+    <invoice_number>INV123456</invoice_number>
+    
+    <!-- Date -->
+    <date>2023-09-27</date>
+    
+    <!-- Terms of payment -->
+    <terms_of_payment>Net 30 dias</terms_of_payment>
+    
+    <!-- Description of goods or services -->
+    <line_items>
+        <line_item>
+            <description>Cartera de huevos</description>
+            <quantity>1</quantity>
+            <unit_price>150.00</unit_price>
+            <total>150.00</total>
+        </line_item>
+        <line_item>
+            <description>Recarga telcel</description>
+            <quantity>1</quantity>
+            <unit_price>75.00</unit_price>
+            <total>75.00</total>
+        </line_item>
+    </line_items>
+    
+    <!-- Total amount -->
+    <total_amount>225.00</total_amount>
+</invoice>

@@ -1,0 +1,17 @@
+<!-- 
+   <?xml version="1.0"?> <documento>
+        <p>Mi Primer <destacar importancia=1>documento XML</destacar></p] 
+        <p>Comienza con la etiqueta <documento&gt;</p> 
+        <p>A continuacion colocamos un elemento sin contenido</p> 
+        <imagen fichero="imagen.gif">
+        </documento>
+
+ -->
+
+<?xml version="1.0"?>
+<documento>
+    <p>Mi Primer <destacar importancia="1">documento XML</destacar></p> <!-- Se deben poner comillas en la etiqueta destacar, y se corrige como se cierra p -->
+    <p>Comienza con la etiqueta &lt;documento&gt;</p> <!-- se edita la parte de documento -->
+    <p>A continuación colocamos un elemento sin contenido</p> 
+    <imagen fichero="imagen.gif"></imagen> <!-- Se cierra la etiqueta imagen -->
+</documento>

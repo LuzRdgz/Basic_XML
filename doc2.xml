@@ -1,0 +1,21 @@
+<!-- 
+<?xml version="1.0"?> 
+<libros>
+    <libro id="quijote"> 
+        <titulo>El Quijote</titulo> 
+        <autor nombre=cervantes nombre=cervantes> 
+            <descripcion>Es el m<ejor libro de cervantes.</descripcion> 
+    </libro]
+</Libros>
+ -->
+
+<?xml version="1.0"?>
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor nombre="cervantes"> <!-- Se corrigió el atributo "nombre" ya que estaba duplicado -->
+            <descripcion>Es el mejor libro de cervantes.</descripcion> <!-- Se corrigió el error de dedo al agregar un < de más -->
+        </autor> <!-- Se agregó una etiqueta de cierre para </autor> -->
+    </libro> <!-- Se cambió </libro] a </libro> -->
+</libros>
+
