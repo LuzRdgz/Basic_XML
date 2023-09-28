@@ -1,0 +1,6 @@
+<!ELEMENT MenuDesayunos (Desayuno)*>
+<!ELEMENT Desayuno (Nombre,PrecioEuros,Descripcion,Calorias)*>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT PrecioEuros (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Calorias (#PCDATA)>
